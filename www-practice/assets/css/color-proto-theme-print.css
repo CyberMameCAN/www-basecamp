@@ -1,0 +1,224 @@
+body {
+    background: #fff;
+    color: #000;
+}
+
+/* リンク */
+a {
+    color: #00f;
+}
+
+a:hover {
+    color: rgb(0, 227, 235);
+}
+
+strong {
+    color: #000;
+}
+
+em {
+    color: #000;
+}
+
+table thead {
+    background-color: #fff;
+    color: #000;
+}
+
+/*** 全体設定 ***/
+#general-base {
+    background-color: #fff;
+}
+
+/*** 2-1. 固定NAVI ***/
+
+/*** ヘッダー ***/
+.hellow {
+    color: #222;
+    background-color: transparent;
+    height: auto;
+}
+
+.hellow h1 {
+    color: #000;
+}
+
+.hellow hgroup p {
+    /* 表示へ変更(スマホでは非表示だった) */
+    display: block;
+}
+
+.sub-text {
+    color: #000;
+}
+
+.sub-header-text.border-white {
+    border-color: white;
+}
+.border-palevioletred {
+    border-color: palevioletred!important;
+}
+.border-yellowgreen {
+    border-color: yellowgreen!important;
+}
+.border-royalblue {
+    border-color: royalblue!important;
+}
+.border-blanchedalmond {
+    border-color: blanchedalmond!important;
+}
+.border-gray {
+    border-color: grey!important;
+}
+.border-gainsboro {
+    border-color: gainsboro!important;
+}
+.border-aqua {
+    border-color: aqua!important;
+}
+.border-yellow {
+    border-color: yellow!important;
+}
+.border-orchid {
+    border-color: orchid!important;
+}
+
+.initial-conditions dl {
+    background-color: #fff;
+}
+.initial-conditions dt {
+    color: #000;
+}
+
+.initial-conditions dd {
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+
+.address-box {
+    background: transparent;
+    color: #000;
+}
+
+/* Toggle menu */
+.toggle-menu .sidebarMenuInner {
+    display: none;
+}
+
+.info-explanation {
+    background: rgba(255,255,255, 0.9);
+    color: #000;
+}
+
+.explain-text {
+    color: #000;
+}
+
+.mitomo-profile {
+    /* background: linear-gradient(90deg, rgb(8, 31, 34), rgb(25, 158, 175)); */
+}
+
+.mitomo-profile .license-box {
+    background-color: #fff;
+}
+
+.deco-text {
+    /* background-color: rgba(0, 0, 0, .2); */
+    background-image: none;
+    border: 1px solid #000;
+    /* color: #fff; */
+}
+
+.address-list .heading-office-name,
+.address-list .heading-office-address,
+.address-list .heading-office-phone {
+    /* font-weight: bold; */
+    color: #000 !important;
+    font-weight: bold;
+}
+
+.info-explanation h3 {
+    color: #000;
+    padding: 0.33em;
+    display: block;
+}
+
+.info-headline {
+    height: auto !important;
+    /* text-align: center !important; */
+}
+
+.info-1 .info-headline {
+    background-image: none !important;
+}
+.info-2 .info-headline {
+    background-image: none !important;
+}
+.info-3 .info-headline {
+    background-image: none !important;
+}
+.info-4 .info-headline {
+    background-image: none !important;
+}
+.info-5 .info-headline {
+    background-image: none !important;
+}
+.info-6 .info-headline {
+    background-image: none !important;
+}
+
+.catchy-content {
+    display: none;
+}
+/* .slide-wrapper {
+    display: none;
+} */
+
+
+.sub3-header-text {
+    color: #4278be;
+}
+
+.whats-new {
+    background-color: #fff;
+    background-repeat: no-repeat;
+}
+
+.chalk-board {
+    /* background-clip: border-box; */
+    background-color: #fff;
+}
+
+.frequently-asked-questions {
+    background-color: rgba(46, 136, 179, 0.2);
+}
+
+.contact-us h2 {
+    /* background-color: rgba(255, 255, 255, .1); */
+    border-bottom: 7px solid rgba(255, 255, 255, .4);
+}
+
+.contact-way {
+    color: #7bd4eb;
+}
+
+.contact-button {
+	background-image: linear-gradient(to right, #7bd4eb 0%, #bfe941 100%);
+}
+
+.contact-button:hover {
+	background-image: linear-gradient(to left, #7bd4eb 0%, #bfe941 100%);
+}
+
+.contact-button a {
+	color: rgb(0, 47, 255);
+}
+
+aside {
+    /* display: none; */
+}
+
+footer {
+    background: #fff;
+    color: #000;
+}

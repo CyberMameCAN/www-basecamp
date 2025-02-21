@@ -1,4 +1,4 @@
-const faseSpeed = 5000;
+const faseSpeed = 3000;
 
 setTimeout(() => {
     let whaleAndFisherman = document.querySelector("#kayac-and-fisherman");

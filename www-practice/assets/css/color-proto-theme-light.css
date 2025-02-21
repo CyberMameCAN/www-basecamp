@@ -1,0 +1,268 @@
+body {
+    background: #fff;
+    color: #333380;
+}
+
+/* リンク */
+a {
+    color: #23afeb;
+}
+
+a:hover {
+    color: #bfe941;
+}
+
+/* 
+strong {
+    color: #000;
+}
+
+em {
+    color: #000;
+} */
+
+table thead {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+/*** 全体設定 ***/
+#general-base {
+    background-color: #fff;
+}
+
+/*** 2-1. 固定NAVI ***/
+nav {
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+/*** ヘッダー ***/
+.hellow {
+    background-color: #23afeb;
+}
+
+.hellow h1 {
+    color: #fff;
+}
+
+.hellow p {
+    color: #fff;
+}
+
+.main-contents h2 {
+    color: #057ccc;
+}
+
+.recruit-info li a {
+    color: #000;
+}
+
+.recruit-info li a:hover {
+    color: #057ccc;
+}
+
+/*
+.sub-text {
+}
+
+.sub-header-text {
+}
+
+.sub3-header-text {
+}
+
+.explain-text {
+}*/
+
+.deco-text {
+    font-weight: bold;
+}
+
+.border-white {
+    border-color: white;
+}
+.border-palevioletred {
+    border-color: palevioletred!important;
+}
+.border-yellowgreen {
+    border-color: yellowgreen!important;
+}
+.border-royalblue {
+    border-color: royalblue!important;
+}
+.border-blanchedalmond {
+    border-color: blanchedalmond!important;
+}
+.border-gray {
+    border-color: grey!important;
+}
+.border-gainsboro {
+    border-color: gainsboro!important;
+}
+.border-aqua {
+    border-color: aqua!important;
+}
+.border-yellow {
+    border-color: yellow!important;
+}
+.border-orchid {
+    border-color: orchid!important;
+}
+
+.initial-conditions dl {
+    background-color: #e6eec7;
+}
+
+/* .initial-conditions dt {
+    color: #057ccc;
+} */
+
+.initial-conditions dd {
+    background-color: #fff;
+}
+
+.address-box {
+    background-color: #fff;
+    color: #333;
+}
+
+/*** Toggle menu ***/
+.special-contact-menu {
+    background-color: #007ab7;
+}
+
+.a-side {
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.catch-text {
+    color: #fff;
+}
+
+.catch-text span {
+    border-bottom: 1px solid #eee;
+}
+
+.hello-world {
+    background-color: #123;
+    color: #fff;
+}
+
+.greeting {
+    background-color: #def;
+    color: #000;
+}
+
+.mitomo-profile .license-box {
+    background-color: rgba(0, 0, 0, 0.07);
+}
+
+/* .business-information {
+    background: #fff url(../images/_2083209724.jpg) no-repeat;
+    background-size: cover;
+    background-position: bottom;
+} */
+
+.info-explanation {
+    background-color: #f0f0f0;
+    color: #000;
+    border: 1px solid #999;
+}
+
+.info-explanation .info-headline {
+    color: #fff;
+    text-shadow: 2px 0px 2px rgba(13, 105, 128, 0.8);
+    background-color: rgba(0, 16, 40, 0.5);
+    background-blend-mode: overlay;
+    border-bottom: 5px solid #23afeb
+}
+
+.top-news {
+    background-color: #d6f3ff;
+}
+
+.whats-new {
+    background-color: #f4ffe8;
+}
+
+.whats-new .news-area li a {
+    color: #333;
+}
+
+.whats-new .news-area li a:hover {
+    color: rgb(131, 165, 27)
+}
+
+.whats-new .news-area li .date {
+    background-color: #b0f5b6;
+    color: #808080;
+}
+
+.chalk-board {
+    background-color: transparent;
+    color: #333;
+}
+
+.contact-us h2 {
+    border-bottom: 7px solid #007ab7;
+}
+
+/* .contact-way {
+    color: #7bd4eb;
+} */
+
+.contact-button {
+    /* background-image: linear-gradient(to right, #7bd4eb 0%, #bfe941 100%); */
+    /* background-image: linear-gradient(to right, #7bd4eb 0%, #91ee91 100%); */
+    background-color: #ffe600;
+}
+
+.contact-button:hover {
+    /* background-image: linear-gradient(to left, #7bd4eb 0%, #91ee91 100%); */
+    background-color: rgb(255, 208, 0);
+}
+
+.contact-button a {
+    color: #000;
+}
+
+.frequently-asked-questions {
+    background-color: #fff;
+}
+
+.address-list dl {
+    background-color: #efefef;
+}
+
+aside {
+    background-color: #e0f4fa;
+    color: #000;
+}
+
+aside a {
+    color: #007ab7;
+}
+
+.side-menu a:hover {
+    background-color: #007ab733;
+    color: #000;
+}
+
+.social-media li {
+    background-color: rgb(138, 218, 18);
+}
+
+.social-media a:hover {
+    color: #000;
+}
+
+footer {
+    background-color: #007ab7;
+    color: #fff;
+}
+
+footer .writecopy {
+    background-color: #025f8d;
+}
+
+@media screen and (min-width: 961px) {
+}

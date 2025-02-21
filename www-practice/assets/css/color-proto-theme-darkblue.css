@@ -1,0 +1,235 @@
+@charset "utf-8";
+
+body {
+    background: linear-gradient(90deg, rgb(0, 0, 0), rgb(8, 53, 59));
+    color: #f0f0f0;
+}
+
+/* リンク */
+a {
+    color: #ff9900;
+}
+
+a:hover {
+    color: #e6e228;
+}
+
+/* etc... */
+strong {
+    color: greenyellow;
+}
+
+em {
+    color: skyblue;
+}
+
+table thead {
+    background-color: rgba(0, 0, 0, 0.25);
+}
+
+.section-wrapper {
+    background-color: rgb(9, 110, 141);
+}
+
+/* 全体設定 */
+
+/* 2-1. 固定NAVI */
+
+/* ヘッダー */
+.hellow {
+    color: #222;
+    background-color: transparent;
+}
+
+.hellow h1 {
+    color: #fff;
+    /* text-shadow: #fff 0 0 5px; */
+}
+
+/*** 求人ページ ***/
+.sub-text {
+    color: #ccc;
+}
+
+.sub3-header-text {
+    color: #d5e7ff;
+}
+
+.explain-text {
+    /* color: #ededed; */
+}
+
+.deco-text {
+    /* 会社方針 */
+    background-color: rgba(255, 255, 255, .2);
+    border: 2px solid #498059;
+}
+
+.sub-header-text.border-white {
+    border-color: white;
+}
+
+.border-palevioletred {
+    border-color: palevioletred!important;
+}
+.border-yellowgreen {
+    border-color: yellowgreen!important;
+}
+.border-royalblue {
+    border-color: royalblue!important;
+}
+.border-blanchedalmond {
+    border-color: blanchedalmond!important;
+}
+.border-gray {
+    border-color: grey!important;
+}
+.border-gainsboro {
+    border-color: gainsboro!important;
+}
+.border-aqua {
+    border-color: aqua!important;
+}
+.border-yellow {
+    border-color: yellow!important;
+}
+.border-orchid {
+    border-color: orchid!important;
+}
+
+.initial-conditions dl {
+    background-color: rgb(0, 81, 161);
+}
+
+.initial-conditions dt {
+    color: #fff;
+}
+
+.initial-conditions dd {
+    background-color: #fff;
+}
+
+.address-box {
+    border-top: 5px solid rgb(102, 55, 16);
+    border-bottom: 5px solid rgb(102, 55, 16);
+    background-image: url(../images/_1203969238.jpg);
+    color: #000;
+}
+
+/* Toggle menu */
+.special-contact-menu {
+    background-color: rgb(63, 9, 9);
+}
+
+.catch-text {
+    background-color: rgba(0, 0, 0, .33);
+    color: #fff;
+}
+
+.catch-text span {
+    color: #ff9900;
+    border-bottom: 1px solid #eee;
+}
+
+.mitomo-profile {
+    background: linear-gradient(90deg, rgb(8, 31, 34), rgb(25, 158, 175));
+}
+
+.mitomo-profile .license-box {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.business-information {
+    background-color: #fff;
+}
+
+.business-information h2 {
+    color: #333;
+}
+
+.info-explanation {
+    background-color: rgba(0, 0, 0, 0.25);
+    color: #000;
+}
+
+.info-explanation h3 {
+    color: #ff9900;
+}
+
+.info-headline {
+    background-color: rgba(0,0,33, 0.6);
+    background-blend-mode: overlay;
+}
+
+.info-x {
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #808080;
+}
+
+.whats-new {
+    background-color: #fff;
+    color: #ededed;
+}
+
+.whats-new .news-area li .date {
+    background-color: #f0f0f0;
+    color: #808080;
+}
+
+.chalk-board {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.contact-us h2 {
+    border-bottom: 7px solid rgba(255, 255, 255, .4);
+}
+
+.contact-way {
+    color: greenyellow;
+}
+
+.contact-button {
+	background-image: linear-gradient(to right, #7bd4eb 0%, #bfe941 100%);
+}
+
+.contact-button:hover {
+	background-image: linear-gradient(to left, #7bd4eb 0%, #bfe941 100%);
+}
+
+.contact-button a {
+	color: #a0f;
+}
+
+.frequently-asked-questions {
+    background-color: rgba(46, 136, 179, 0.2);
+}
+
+.address-list dl {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+aside {
+    background-color: transparent;
+}
+
+aside a {
+}
+
+.side-menu a:hover {
+    background-color: rgb(0, 59, 117);
+    color: #fff;
+}
+
+.social-media li {
+    background-color: rgb(0, 59, 117);
+}
+
+.social-media a:hover {
+    color: #fff;
+    background-color: rgb(0, 59, 117);
+}
+
+footer {
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #000;
+}

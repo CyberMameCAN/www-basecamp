@@ -17,7 +17,6 @@ html {
 }
 
 body {
-    background-color: #333;
     font-family:'メイリオ', 'Meiryo', 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', sans-serif;
     font-size: 1.6rem;
     line-height: 2.4rem;
@@ -25,7 +24,7 @@ body {
 
 /* リンク */
 a {
-    color: yellowgreen;
+    color: blueviolet;
     text-decoration: none;
 }
 
@@ -55,67 +54,40 @@ ul {
     padding: 0;
 }
 
+/* flex */
 .flexbox-rapper {
-    /* flex */
     display: flex;
     justify-content: space-around;
 }
 
-.position-center {
-    /* 3行で中心揃え */
-    align-items: center;/* 交差軸方向 */
-    display: flex;
-    justify-content: center;/* 横軸方向 */
-}
-
-#whitebase,
-.hello,
-.main-nav,
-.contents-box,
-.main-content,
-aside,
-footer {
+/* カラー設定 */
+.whitebase {
+    /* background-color: #666; */
     width: 100%;
-}
-
-#whitebase {
-    background-color: #666;
     min-height: 100vh;
-    min-width: 375px;
 }
 
-.hello {
+header {
     height: 300px;
+    width: 100%;
     background-color: #fff;
-    background-image: url(../images/kayac.jpg);
-    background-position: center bottom;
-    background-size: cover;
+    border-top: 10px solid #f00;
+    border-bottom: 10px solid #f00;
     overflow: hidden;
-
-    border-top: 7px solid #f00;
-    border-bottom: 7px solid #f00;
-}
-
-.hello h1 {
-    color: aquamarine;
 }
 
 .main-nav {
     background-color: black;
     font-size: 1.4rem;
-    /* 任意の場所で"固定" */
-    /* position: sticky;
-    top: 0; */
-    text-align: center;
+    position: sticky;/* 任意の場所で"固定" */
+    top: 0;
+}
+.main-nav ul li {
+    padding: .2em;
 }
 
-.main-nav li {
-    padding: 1em .5em;
-}
-
-.main-nav,
 main {
-    margin-bottom: 4.8rem;
+    min-height: 800px;
 }
 
 section {
@@ -123,17 +95,7 @@ section {
 }
 
 aside {
-    /* padding: 1em; */
-}
-
-aside .side-menu {
-    background-color: rgba(255, 255, 255, 0.2);
-}
-
-aside .side-menu li {
-    padding: 1em .5em;
-    text-align: center;
-    border-bottom: 1px solid #ccc;
+    padding: 1em;
 }
 
 footer {
@@ -150,13 +112,10 @@ footer {
         display: flex;
         justify-content: space-evenly;
     }
-
     .main-nav li {
-        padding: .5em;
         text-align: center;
         width: 20%;
     }
-    
     .main-nav li:not(:last-child) {
         border-right: 1px solid #333;
     }
@@ -170,40 +129,33 @@ footer {
         text-align: left;
     }
 
-    .main-nav {
-        position: sticky;/* 任意の場所で"固定" */
-        top: 0;
-    }
-
     .contents-box {
         display: flex;
         justify-content: space-around;
+        margin: auto;
     }
 
     main {
+        margin: auto;
         min-width: 680px;
-        margin-right: 2.4rem;
-    }
-
-    .main-content {
-        /* margin: auto; */
-        /* background-color:  #99c; */
+        background-color:  #99c;
     }
 
     aside {
-        margin-left: auto;
         width: 270px;
     }
 
     aside .side-menu {
-        margin-top: 2.4rem;
-        background-color: #333;
+        position: sticky;/* 任意の場所で"固定" */
+        top: 46px;
+        background-color: #ccc;
     }
+
 }
 
 /* 大 以上 */
 @media screen and (min-width: 1201px) {
-    .main-content {
+    main {
         max-width: 920px;
         margin: auto;
     }
